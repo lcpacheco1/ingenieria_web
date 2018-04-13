@@ -2,68 +2,93 @@
 	padding: 0;
 	margin: 0;
 }
+
 body{
-	background: #f1f1f1;
+	background: #ccd1d1 ;
 	font-family: arial;
 }
 header.cabecera,  footer {
-	background: #ccd1d1 ;
+	
 	color: #000;
 	width: 90%;
 	margin: 0 auto;
 }
 .cabecera section{
-	width: 20%;
+	width:40.33%;
 	display: inline-block;
-	padding: 1em 2em;
-	margin-left: 2em;
-	background:  #96B32C
+	padding: 3.6em ;
+	margin-top: 0.5em;
+	background:  #96B32C;
+	text-align: center;
 }
-.sec2 section{
+/*.sec2 section{
 	width: 70%;
 	display: inline-block;
 	text-align: right;
 	padding: 1em 2em;
 	margin-left: 2em;
-	}
-
-
+	}*/
 
 nav {
 	background:  #f4d03f;
 	text-align: center;
 	width: 90%;
 	margin: 0 auto;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	margin-top: 0.5em;
 
 }
-.galeria {
-	background:#96B32C  ;
+nav a{
+	text-decoration: none;
+	color: black;
+
+}
+section.galeria {
+	background:#96B32C;	
+	width: 85.3%;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	padding: 2em;
 	text-align: center;
+}
+
+
+aside.aside{
 	width: 90%;
 	margin: 0 auto;
-	height: 5em;
+	margin-top: 0.5em;
 }
+.aside h3{
+	width: 24.724%;
+	display: inline-block;	
+	background:#96B32C;
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 main{
-	width: 68%;
-	display: inline-block;
-	margin-left: 3em;
-	background: #96B32C;
+
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 0.5em;
 	vertical-align: top;
 
 }
-main article{
-	padding: 1em;
-}
-
-aside{
-	width: 22%;
+article section{
+	width: 40.33%;
+	padding:3.6em;
 	display: inline-block;
-	vertical-align: top;
 	background: #96B32C;
+	text-align: center;
 }
 
 footer h6{
 	padding:  2em 0;
+	background: #96B32C;
 	text-align: center;
+	margin-left: auto;
+	margin-top: 0.5em;
 
 }
